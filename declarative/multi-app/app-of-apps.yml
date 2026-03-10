@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: http://165.22.209.118:3000/siddharth/gitops-argocd.git
-    targetRevision: HEAD
+    targetRevision:  HEAD
     path: ./declarative/app-of-apps
   destination:
     server: https://kubernetes.default.svc
